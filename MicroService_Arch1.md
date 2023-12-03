@@ -1,3 +1,6 @@
+<div style="display: flex; justify-content: space-between;">
+
+```mermaid
 graph TD
 
   subgraph LegacyApplication
@@ -40,3 +43,10 @@ graph TD
   MS1 --> DB1
   MS2 --> DB2
   MS3 --> DB3
+```mermaid
+</div>
+
+```css
+.mermaid subgraph {
+  width: calc(50% - 10px); /* Adjust based on desired spacing */
+}
