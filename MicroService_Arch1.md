@@ -1,19 +1,13 @@
 <div style="display: flex; justify-content: space-between;">
 
-```mermaid
-graph TD
+graph TD;
 
   subgraph LegacyApplication
     LA1(Legacy App with .NET Framework 4.7)
     LA2(Grapecity ActiveReports)
   end
-  LA1 ---> LA2
+  LA1 ---> LA2;
   
-  subgraph LegacyApplication
-    LA1(Legacy App with .NET Framework 4.7)
-    LA2(Grapecity ActiveReports)
-  end
-
   subgraph Browser
     MFE1(Micro Frontend 1)
     MFE2(Micro Frontend 2)
@@ -35,18 +29,13 @@ graph TD
     DB3(DB 3)
   end
 
-  MFE1 --> IE
-  MFE2 --> IE
-  IE --> MS1
-  IE --> MS2
-  IE --> MS3
-  MS1 --> DB1
-  MS2 --> DB2
-  MS3 --> DB3
-```mermaid
-</div>
+  MFE1 --> IE;
+  MFE2 --> IE;
+  IE --> MS1;
+  IE --> MS2;
+  IE --> MS3;
+  MS1 --> DB1;
+  MS2 --> DB2;
+  MS3 --> DB3;
 
-```css
-.mermaid subgraph {
-  width: calc(50% - 10px); /* Adjust based on desired spacing */
-}
+</div>
