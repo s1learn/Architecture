@@ -1,5 +1,3 @@
-<div style="display: flex; justify-content: space-between;">
-
 graph TD;
 
   subgraph LegacyApplication
@@ -37,5 +35,3 @@ graph TD;
   MS1 --> DB1;
   MS2 --> DB2;
   MS3 --> DB3;
-
-</div>
