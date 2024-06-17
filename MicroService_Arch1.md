@@ -1,3 +1,9 @@
+
+/* 
+Apply CSS to control the layout of the Mermaid diagram if necessary, either through embedded styles (not recommended for GitHub rendering) or through external styles applied to the Markdown file.
+*/
+<div style="display: flex; justify-content: space-between;">
+
 ```mermaid
 graph TD;
 
